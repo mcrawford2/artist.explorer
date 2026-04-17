@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 24px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    display: block;
+}
