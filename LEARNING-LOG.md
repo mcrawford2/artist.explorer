@@ -1,3 +1,5 @@
+## ITERATION #1:
+
 # What does the API response look like? 
 The API response looks like this (with everything unopened):
 
@@ -15,8 +17,13 @@ info - the data license, links to terms of use, and the API version
 pagination - how much of the whole dataset is being shown on the page
 
 # What fields did you use? 
+I used the fields artist_display, image_id, and title. Artist display gives information about the artists name, nationality, and years alive. Image ID uses the number code (ex. 85285b97-316e-92e4-53bd-07e565d57db0) for the artwork image. Title gives the name of the artwork. These were e starting fields, and I am likely to incorporate more moving forward.
 
 # What was the trickiest part of getting fetch to work?
+The hardest part of getting fetch to work was understanding the written syntax. I had a good understanding of it conceptually, and wanted to be able to complete the written code on my own. I had to turn to AI to help because I did not have in depth enough comprehension of what to write, in what order and with what indents or special characters. Looking back at the partially AI code now, I am able to better understand the entire block of script.  
 
 # If AI helped, what did it explain about async/await?
-AI did help, especially with loading the images along with text information. However, my first attempt at fetching the API and AI's first attempt at helping me did not include async or await. I had to go back and ask AI to help with adding them directly, because I know that they make the code with sequential operations easier to read, simplify error handling, and have clearer tracebacks for debugging. 
+AI did help, especially with loading the images along with text information. However, my first attempt at fetching the API and AI's first attempt at helping me did not include async or await. I had to go back and ask AI to help with adding them directly, because I know that they make the code with sequential operations easier to read, simplify error handling, and have clearer tracebacks for debugging. There are two awaits because it has to wait for the server to respond, and wait for the body to download. 
+
+
+## ITERATION #2:
