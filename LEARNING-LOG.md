@@ -34,6 +34,9 @@ I added user input functionality of search and a load more button. The search ab
 The load more button works by getting the button element from the DOM, and updating text within the button as long as it is nor currently loading and there are more pages to be loaded. It loads a new 8 artworks from the API, through sending a request, checking HTTP success, parsing JSON, and logging the API response.
 
 # What CSS layout did you use for displaying data? 
-
+I used cards to present the artwork and following information on the page. This was a logical decision for me design-wise because cards seem to naturally mirror how physical artwork is displayed in a museum. Each piece gets its own framed, self-contained space. Using a CSS Grid layout allowed me to arrange these cards in a clean 4-column structure, and each card uses padding, a light border, and a border-radius to create separation between data.
 
 # What design decisions did you make?
+I wanted to keep the page very simple. Because it is a page for art, I wanted the art to be the main feature and for it not to be overshadowed by any overwhelming animations. One thing I did add was a slight hover animation for the artwork images, for it to be clear what the user was looking at. Hover also adds a layer of interactivity that encourages users to engage with each piece without disrupting the overall layout.
+
+## ITERATION 3:

@@ -41,6 +41,7 @@ li {
     border: 1px solid #ddd;
     border-radius: 6px;
     background: #fff;
+    overflow: hidden;
 }
 
 img {
@@ -49,4 +50,10 @@ img {
     object-fit: cover;
     display: block;
     margin-bottom: 8px;
+    transition: transform 0.2s ease;
+    transform-origin: center;
+}
+
+img:hover {
+    transform: scale(1.04);
 }
