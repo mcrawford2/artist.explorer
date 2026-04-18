@@ -27,3 +27,13 @@ AI did help, especially with loading the images along with text information. How
 
 
 ## ITERATION #2:
+
+# How did you connect user input to API calls? 
+I added user input functionality of search and a load more button. The search ability lets users find what they are looking for directly. It connects to te API after users type in the search box, and an addEventListener runs. The results are filtered based on what the user types, and searches are formatted to be case insensitive and ignore extra spaces. If te search is empty, all loaded artworks will be on the page. 
+
+The load more button works by getting the button element from the DOM, and updating text within the button as long as it is nor currently loading and there are more pages to be loaded. It loads a new 8 artworks from the API, through sending a request, checking HTTP success, parsing JSON, and logging the API response.
+
+# What CSS layout did you use for displaying data? 
+
+
+# What design decisions did you make?
