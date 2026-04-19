@@ -39,4 +39,19 @@ I used cards to present the artwork and following information on the page. This 
 # What design decisions did you make?
 I wanted to keep the page very simple. Because it is a page for art, I wanted the art to be the main feature and for it not to be overshadowed by any overwhelming animations. One thing I did add was a slight hover animation for the artwork images, for it to be clear what the user was looking at. Hover also adds a layer of interactivity that encourages users to engage with each piece without disrupting the overall layout.
 
+
 ## ITERATION 3:
+
+# What extension did you add? 
+There is already some form of pagination through the load more artwork function, but I also added a detailed view extension. This works by allowing users to click on any artwork, and an "Artork details" section will pop up below. It will show a larger version of the image, and have more information including artist, date, origin, medium, dimensions, department, and how it got to the Art Institute. 
+
+# What edge cases did you handle? 
+- empty search: empty search will show all loaded artworks
+- spamming load more button after having no search results: continues to return "No artworks match your search."
+- long searches: are not likely to have any matches, but user can still try and input will stay within the search box
+- API rate limit: the Art Institute of Chicago states 60 requests per minute per IP, which is almost impossible to exceed in this app
+
+Additionally, with a total of 131,565 artworks and your current page size of 8, estimated total pages = about 16,446 and estimated maximum Load more clicks = about 16,445.
+
+# What surprised you about working with a real API?
+Working with a real API, I expected things to break constantly. However, this API was very reliable. Most of my fetch calls worked, and when something went wrong it was usually do to my own human error. On the other hand, while the functionality of te API was consistent, it did not always return what it said it would. One example of this is when both the Artist and Origin of an art piece was stated as Turkey. 
