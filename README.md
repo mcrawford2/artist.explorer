@@ -10,7 +10,7 @@ Art Institute of Chicago - https://api.artic.edu
 https://mcrawford2.github.io/artist.explorer/  
 
 # Screenshot
-![Artist Explorer App](C:\Users\mcrawford2\Documents\GitHub\artist.explorer\artist.explorer.ss.png)
+![Artist Explorer App](artist.explorer.ss.png)
 
 # What you learned about working with APIs
 Working with APIs was not as intimidating as I originally believed it to be. Doing so taught me how to retrieve and use external data in a web application. I learned how to make requests with fetch, async, and await, handle responses by parsing JSON, and manage error states when requests fail. I also learned to use the fields parameter to request only the data the app actually needs, and to handle pagination by tracking the current page and total pages from the API response, for instances such as managing the "Load more" button.
